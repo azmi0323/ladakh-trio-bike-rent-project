@@ -1,29 +1,46 @@
 import React from "react";
-import { Link } from "react-router-dom";
-import './Header.css'
+import "./Header.css";
+import { NavLink } from "react-router-dom";
 const Header = () => {
   return (
-    <div>
-      <div className="header-part">
-        <div>
-          <h1>Bike<span className="orange">Hub</span></h1>
+    <div className="nav-style ">
+      <div className="header-part container">
+        <div className="">
+          <h1 className="fw-bold fst-italic">
+            Bike<span className="orange">Hub</span>
+          </h1>
         </div>
         <div>
-          <Link className="header-link" to="/">
+          <NavLink
+            className={({ isActive }) => (isActive ? "link-active" : "link")}
+            to="/"
+          >
             Home
-          </Link>
-          <Link className="header-link" to="/review">
+          </NavLink>
+          <NavLink
+            className={({ isActive }) => (isActive ? "link-active" : "link")}
+            to="/review"
+          >
             Review
-          </Link>
-          <Link className="header-link" to="/about">
+          </NavLink>
+          <NavLink
+            className={({ isActive }) => (isActive ? "link-active" : "link")}
+            to="/about"
+          >
             About
-          </Link>
-          <Link className="header-link" to="/dashboard">
+          </NavLink>
+          <NavLink
+            className={({ isActive }) => (isActive ? "link-active" : "link")}
+            to="/dashBoard"
+          >
             Dashboard
-          </Link>
-          <Link className="header-link" to="/blogs">
+          </NavLink>
+          <NavLink
+            className={({ isActive }) => (isActive ? "link-active" : "link")}
+            to="/blogs"
+          >
             Blogs
-          </Link>
+          </NavLink>
         </div>
       </div>
     </div>
