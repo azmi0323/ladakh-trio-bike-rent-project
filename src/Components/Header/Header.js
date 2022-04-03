@@ -12,8 +12,8 @@ const Header = () => {
           <Link className="header-link" to="/">
             Home
           </Link>
-          <Link className="header-link" to="/orderReview">
-            OrderReview
+          <Link className="header-link" to="/review">
+            Review
           </Link>
           <Link className="header-link" to="/about">
             About
