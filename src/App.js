@@ -6,6 +6,7 @@ import Review from './Components/Review/Review';
 import About from './Components/About/About';
 import DashBoard from './Components/Dashboard/Dashboard';
 import Blogs from './Components/Blogs/Blogs';
+import NotFound from "./Components/NotFound/NotFound";
 
 function App() {
   return (
@@ -13,10 +14,12 @@ function App() {
       <Header></Header>
       <Routes>
       <Route path='/' element={<Home></Home>}></Route>
+      <Route path='/home' element={<Home></Home>}></Route>
       <Route path='/review' element={<Review></Review>}></Route>
       <Route path='/about' element={<About></About>}></Route>
       <Route path='/dashBoard' element={<DashBoard></DashBoard>}></Route>
       <Route path='/blogs' element={<Blogs></Blogs>}></Route>
+      <Route path='*' element={<NotFound></NotFound>}></Route>
       </Routes>
     </div>
   );
