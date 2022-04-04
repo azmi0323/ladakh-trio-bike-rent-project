@@ -2,7 +2,7 @@
     {
     "id": 1,
     "name": "Leanne Graham",
-    "username": "Bret",
+    "ratting": "4 star",
     "email": "Sincere@april.biz",
     "body": "We rode the Natchez Trace from Natchez to Nashville over 11 days from October 12-23rd this year. I enjoyed our accommodations at French Camp, MS possibly the most , along with the Farmhouse Sanctuary B and B in Alabama.",
     "img" : "https://randomuser.me/api/portraits/men/18.jpg"
@@ -10,7 +10,7 @@
     {
     "id": 2,
     "name": "Ervin Howell",
-    "username": "Antonette",
+    "ratting": "3 star",
     "email": "Shanna@melissa.tv",
     "body": "Thanks so much for the recommended lodging on the Trace. We especially liked Meriwether's Retreat, Miss Monetta's Cottage, Bridges-Hall Manor, Pedal Inn and La Perl.",
     "img" :"https://randomuser.me/api/portraits/men/22.jpg"  
@@ -19,7 +19,7 @@
     {
     "id": 3,
     "name": "Clementine Bauch",
-    "username": "Samantha",
+    "ratting": "5 star",
     "email": "Nathan@yesenia.net",
     "body": "We had great weather and biked the whole thing South to North. Couldn't get over the smooth pavement! Last minute our friends decided to sag for us so we were able to do 11 days-40miles a day.",
     "img" :"https://randomuser.me/api/portraits/men/81.jpg"  
@@ -27,7 +27,7 @@
     {
     "id": 4,
     "name": "Patricia Lebsack",
-    "username": "Karianne",
+    "ratting": "4 star",
     "email": "Julianne.OConner@kory.org",
     "body": "Our original plan without sag was 58 miles the last day into Tennessee and we were glad we were able to shorten it! Most people seem to go North to South but we like the other way because the sun was in our eyes less.",
     "img" :"https://randomuser.me/api/portraits/men/43.jpg"  
@@ -35,7 +35,7 @@
     {
     "id": 5,
     "name": "Chelsey Dietrich",
-    "username": "Kamren",
+    "ratting": "3 star",
     "email": "Lucio_Hettinger@annie.ca",
     "body": "Three of us biked from Jackson north to the end of the parkway outside of Nashville. Smoothest road I have ever biked, and the scenery becomes meditative. We really enjoyed all the history and the friendliest people met along the way.",
     "img" :"https://randomuser.me/api/portraits/men/39.jpg"
@@ -43,7 +43,7 @@
     {
     "id": 6,
     "name": "Mrs. Dennis Schulist",
-    "username": "Leopoldo_Corkery",
+    "ratting": "5 star",
     "email": "Karley_Dach@jasper.info",
     "body": "Thanks so much to Randy for suggesting great lodging. In Kosciusko, the Maple Terrace Inn is a great B&B with a great breakfast. Dinner at Jason’s table downtown was also really good.",
     "img" :"https://randomuser.me/api/portraits/men/64.jpg" 
@@ -51,7 +51,7 @@
     {
     "id": 7,
     "name": "Kurtis Weissnat",
-    "username": "Elwyn.Skiles",
+    "ratting": "2 star",
     "email": "Telly.Hoeger@billy.biz",
     "body": "We were a group of 6 persons traveling the Trace by bike and camping. Randy helped us plan every stop and our route. Totally unbelievable experience.",
     "img" :"https://randomuser.me/api/portraits/men/63.jpg" 
@@ -59,7 +59,7 @@
     {
     "id": 8,
     "name": "Nicholas Runolfsdottir V",
-    "username": "Maxime_Nienow",
+    "ratting": "4 star",
     "email": "Sherwood@rosamond.me",
     "body": "Best eats was The Camp Restaurant in Natchez for lunch and sit outside and watch the Mississippi River float by. Trailhead Bike and Bed in Houston, MS was our best lodging experience.",
     "img" :"https://randomuser.me/api/portraits/men/5.jpg" 
@@ -67,7 +67,7 @@
     {
     "id": 9,
     "name": "Glenna Reichert",
-    "username": "Delphine",
+    "ratting": "3 star",
     "email": "Chaim_McDermott@dana.io",
     "body": "The road was amazingly smooth, especially in MS. Greatly enjoyed lunch in Lorman, MS on our first day and was only disappointed to learn the owner wasn’t there as he apparently sings to his customers. I’d also say I thought the Natchez Trace was a very safe road for cyclists.",
     "img" :"https://randomuser.me/api/portraits/women/21.jpg" 
@@ -75,7 +75,7 @@
     {
     "id": 10,
     "name": "Clementina DuBuque",
-    "username": "Moriah.Stanton",
+    "ratting": "5 star",
     "email": "Rey.Padberg@karina.biz",
     "body": "Our original plan without sag was 58 miles the last day into Tennessee and we were glad we were able to shorten it! Most people seem to go North to South but we like the other way because the sun was in our eyes less.",
     "img" :"https://randomuser.me/api/portraits/women/34.jpg" 

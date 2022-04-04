@@ -1,14 +1,10 @@
-import React, { useEffect, useState } from "react";
+
 import "./Review.css";
 import User from "../User/User";
+import useReview from "../Hooks/useReview";
 
 const Review = () => {
-  const [users, setUsers] = useState([]);
-  useEffect(() => {
-    fetch("person.json")
-      .then((res) => res.json())
-      .then((data) => setUsers(data));
-  }, []);
+  const [users, setUsers] = useReview()
   return (
     <div className="container d-flex justify-content-center">
       

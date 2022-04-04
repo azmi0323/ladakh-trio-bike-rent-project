@@ -1,8 +1,13 @@
 import React from "react";
 import "./Home.css";
 import bikeImg from "../../Assets/bike.png";
+import Review from "../Review/Review";
+import { NavLink } from "react-router-dom";
+import useReview from "../Hooks/useReview";
+import User from "../User/User";
 
 const Home = () => {
+  const [users, setUsers] = useReview();
   return (
     <div>
       <div className="d-flex  align-items-center container mt-5">
@@ -29,7 +34,17 @@ const Home = () => {
         </div>
       </div>
       <div className="d-flex align-items-center justify-content-center">
-          <h1>Total Review</h1>
+        <div className="card-compo ">
+          {users.map(
+            (user, number) =>
+              number < 3 && <User user={user} key={user.id}></User>
+          )}
+        </div>
+      </div>
+      <div className="d-flex align-items-center justify-content-center">
+        <NavLink className={"btn btn-danger"} to="/review">
+          See All Review
+        </NavLink>
       </div>
     </div>
   );
