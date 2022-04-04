@@ -21,7 +21,7 @@ const Dashboard = () => {
           <YAxis></YAxis>
           <Tooltip></Tooltip>
         </LineChart>
-        <h2 className="mt-3 fw-bold">
+        <h2 className="mt-3 fw-bold mb-5">
           <span className="orange">Our Sells</span> in Last Six Month
         </h2>
       </div>
@@ -31,6 +31,10 @@ const Dashboard = () => {
           <Pie data={cart} dataKey="investment" cx="50%" cy="50%" outerRadius={60} fill="#8884d8" />
           <Pie data={cart} dataKey="revenue" cx="50%" cy="50%" innerRadius={70} outerRadius={90} fill="#82ca9d" label />
         </PieChart>
+        <h2 className="mt-3 fw-bold mb-5">
+          Our Pie Chart
+          <span className="orange"> Of The Year</span> 
+        </h2>
       </div>
       <div>
       <AreaChart
@@ -52,6 +56,9 @@ const Dashboard = () => {
           <Area type="monotone" dataKey="revenue" stackId="1" stroke="#82ca9d" fill="#82ca9d" />
           <Area type="monotone" dataKey="sell" stackId="1" stroke="#ffc658" fill="#ffc658" />
         </AreaChart>
+        <h2 className="mt-3 fw-bold mb-5">
+          <span className="orange">Business Investment</span> In 2022
+        </h2>
       </div>
       <div>
       <BarChart
@@ -74,6 +81,9 @@ const Dashboard = () => {
           <Bar dataKey="revenue" stackId="a" fill="#82ca9d" />
           <Bar dataKey="sell" fill="#ffc658" />
         </BarChart>
+        <h2 className="mt-3 fw-bold mb-5">
+           The Profit<span className="orange" > Of Our Organization</span>
+        </h2>
       </div>
     </div>
   );
