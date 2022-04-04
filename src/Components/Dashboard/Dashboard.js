@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { Line, LineChart, Tooltip, XAxis, YAxis } from "recharts";
+
 import "./Dashboard.css";
 const Dashboard = () => {
   const [cart, setChart] = useState([]);
@@ -11,7 +12,7 @@ const Dashboard = () => {
   return(
         <div className="container mt-5">
             <div>
-            <LineChart width={700} height={400} data={cart}>
+            <LineChart width={600} height={400} data={cart}>
                 <Line dataKey={'investment'}></Line>
                 <Line dataKey={'revenue'}></Line>
                 <Line dataKey={'sell'}></Line>
