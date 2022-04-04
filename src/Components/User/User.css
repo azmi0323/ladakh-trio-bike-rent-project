@@ -3,6 +3,10 @@
     
 }
 .user-card{
-    border: 2px solid red;
-    margin: 10px;
+    
+    margin: 20px;
+    border-radius: 15px;
+    box-shadow: 28px 13px 127px -96px rgba(36,0,255,0.75);
+-webkit-box-shadow: 28px 13px 127px -96px rgba(36,0,255,0.75);
+-moz-box-shadow: 28px 13px 127px -96px rgba(36,0,255,0.75);
 }
