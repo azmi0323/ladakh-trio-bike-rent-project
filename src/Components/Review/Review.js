@@ -4,7 +4,7 @@ import User from "../User/User";
 import useReview from "../Hooks/useReview";
 
 const Review = () => {
-  const [users, setUsers] = useReview()
+  const [users] = useReview()
   return (
     <div className="container d-flex justify-content-center">
       
