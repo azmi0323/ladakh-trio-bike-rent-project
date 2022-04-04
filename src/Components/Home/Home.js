@@ -31,8 +31,12 @@ const Home = () => {
           <button className="my-4 btn btn-danger fw-bold">
             Learn More About Us
           </button>
+          
         </div>
+        
       </div>
+      <h2 className="text-center fw-bold mt-3 mb-5">Our Clint's <span className="orange">Review : {users.length}</span></h2>
+          <hr />
       <div className="d-flex align-items-center justify-content-center">
         <div className="card-compo ">
           {users.map(
@@ -42,7 +46,7 @@ const Home = () => {
         </div>
       </div>
       <div className="d-flex align-items-center justify-content-center">
-        <NavLink className={"btn btn-danger"} to="/review">
+        <NavLink className={"btn mt-4 btn-danger"} to="/review">
           See All Review
         </NavLink>
       </div>

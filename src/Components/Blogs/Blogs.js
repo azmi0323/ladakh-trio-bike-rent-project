@@ -4,7 +4,7 @@ const Blogs = () => {
   return (
     <div className="container my-5">
       <div>
-        <h1>Different between inline-block and block elements?</h1>
+        <h1>Different between <span className="orange">inline-block and block elements?</span></h1>
         <p>
           Inline elements that take up only as much space as needed and can fit
           around the content of elements on the same line. Inline elements has
@@ -18,7 +18,7 @@ const Blogs = () => {
         </p>
       </div>
       <div>
-        <h1>What is semantic tag?</h1>
+        <h1>What is <span className="orange">semantic tag?</span></h1>
         <p>
           HTML5 markers are used to format content-these markers tell the
           cybersurfer how to display the content on the runner. Semantic HTML5
@@ -32,7 +32,7 @@ const Blogs = () => {
         </p>
       </div>
       <div>
-        <h1>What is context API?</h1>
+        <h1>What is <span className="orange">context API?</span></h1>
         <p>
           Result Environment API is a point of React that allows to partake
           state across the entire app. The Context API is a React structure that
