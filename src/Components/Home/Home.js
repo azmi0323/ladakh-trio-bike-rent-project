@@ -1,13 +1,12 @@
 import React from "react";
 import "./Home.css";
 import bikeImg from "../../Assets/bike.png";
-import Review from "../Review/Review";
 import { NavLink } from "react-router-dom";
 import useReview from "../Hooks/useReview";
 import User from "../User/User";
 
 const Home = () => {
-  const [users, setUsers] = useReview();
+  const [users] = useReview();
   return (
     <div>
       <div className="d-flex  align-items-center container mt-5">
